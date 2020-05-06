@@ -1,0 +1,87 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOONLY.DataAccess</RootNamespace>
+    <AssemblyName>MOONLY.DataAccess</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Delete\XoaDuLieuGioHang.cs" />
+    <Compile Include="Insert\ChenDuLieuChiTietDonHang.cs" />
+    <Compile Include="Insert\ChenDuLieuDonHang.cs" />
+    <Compile Include="Insert\ChenDuLieuGioHang.cs" />
+    <Compile Include="Insert\ChenDuLieuNguoiDung.cs" />
+    <Compile Include="Insert\ChenDuLieuSanPham.cs" />
+    <Compile Include="KetNoi.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Select\TruyVanDuLieu10SanPham.cs" />
+    <Compile Include="Select\TruyVanDuLieuChiTietDonHang.cs" />
+    <Compile Include="Select\TruyVanDuLieuDangNhapAdmin.cs" />
+    <Compile Include="Select\TruyVanDuLieuDangNhapNguoiDung.cs" />
+    <Compile Include="Select\TruyVanDuLieuDanhMucMaster.cs" />
+    <Compile Include="Select\TruyVanDuLieuDanhMucSanPham.cs" />
+    <Compile Include="Select\TruyVanDuLieuDonHang.cs" />
+    <Compile Include="Select\TruyVanDuLieuDonHangByID.cs" />
+    <Compile Include="Select\TruyVanDuLieuGioHang.cs" />
+    <Compile Include="Select\TruyVanDuLieuHinhSanPhamByID.cs" />
+    <Compile Include="Select\TruyVanDuLieuSanPham.cs" />
+    <Compile Include="Select\TruyVanDuLieuSanPhamByID.cs" />
+    <Compile Include="Select\TruyVanDuLieuSanPhamTheoDanhMuc.cs" />
+    <Compile Include="Select\TruyVanDuLieuTatCaDonHang.cs" />
+    <Compile Include="Select\TruyVanDuLieuThongKeTruyCap.cs" />
+    <Compile Include="Select\TruyVanDuLieuTimSanPham.cs" />
+    <Compile Include="Select\TruyVanDuLieuTinhTrangDonHang.cs" />
+    <Compile Include="Update\CapNhatDuLieuDonHang.cs" />
+    <Compile Include="Update\CapNhatDuLieuGioHang.cs" />
+    <Compile Include="Update\CapNhatDuLieuSanPham.cs" />
+    <Compile Include="Update\CapNhatDuLieuThongKeTruyCap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MOONLY.Common\MOONLY.Common.csproj">
+      <Project>{680BE974-44B0-4F81-A209-99AA8960C8A4}</Project>
+      <Name>MOONLY.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOONLY.Operational\MOONLY.Operational.csproj">
+      <Project>{ADAD842E-934E-4403-A32E-1F4918BD14AE}</Project>
+      <Name>MOONLY.Operational</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

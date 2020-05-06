@@ -1,0 +1,84 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D098A96-D25D-44A7-BF07-F2E256EF9B67}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOONLY.BusinessLogic</RootNamespace>
+    <AssemblyName>MOONLY.BusinessLogic</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XuLyCapNhatDonHang.cs" />
+    <Compile Include="XuLyCapNhatGioHang.cs" />
+    <Compile Include="XuLyCapNhatSanPham.cs" />
+    <Compile Include="XuLyCapNhatThongKeTruyCap.cs" />
+    <Compile Include="XuLyDangNhapAdmin.cs" />
+    <Compile Include="XuLyDangNhapNguoiDung.cs" />
+    <Compile Include="XuLyLay10SanPham.cs" />
+    <Compile Include="XuLyLayChiTietDonHang.cs" />
+    <Compile Include="XuLyLayDanhMucSanPham.cs" />
+    <Compile Include="XuLyLayDanhMucSanPhamMaster.cs" />
+    <Compile Include="XuLyLayDonHang.cs" />
+    <Compile Include="XuLyLayDonHangByID.cs" />
+    <Compile Include="XuLyLayDuLieuSanPhamTheoDanhMuc.cs" />
+    <Compile Include="XuLyLayGioHang.cs" />
+    <Compile Include="XuLyLayHinhSanPham.cs" />
+    <Compile Include="XuLyLaySanPham.cs" />
+    <Compile Include="XuLyLaySanPhamByID.cs" />
+    <Compile Include="XuLyLayTatCaDonHang.cs" />
+    <Compile Include="XuLyLayThongKeTruyCap.cs" />
+    <Compile Include="XuLyLayTimSanPham.cs" />
+    <Compile Include="XuLyLayTinhTrangDonHang.cs" />
+    <Compile Include="XuLyThemDonHang.cs" />
+    <Compile Include="XuLyThemGioHang.cs" />
+    <Compile Include="XuLyThemNguoiDung.cs" />
+    <Compile Include="XuLyThemSanPham.cs" />
+    <Compile Include="XuLyXoaGioHang.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MOONLY.Common\MOONLY.Common.csproj">
+      <Project>{680BE974-44B0-4F81-A209-99AA8960C8A4}</Project>
+      <Name>MOONLY.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOONLY.DataAccess\MOONLY.DataAccess.csproj">
+      <Project>{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}</Project>
+      <Name>MOONLY.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

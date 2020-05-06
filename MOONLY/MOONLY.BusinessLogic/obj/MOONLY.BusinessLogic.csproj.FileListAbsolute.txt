@@ -1,0 +1,54 @@
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb

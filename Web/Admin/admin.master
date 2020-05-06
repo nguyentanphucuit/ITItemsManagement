@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="Admin_admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Trang quản trị viên</title>
+    <!--<link href="web/admin.css" type="text/css" rel="Stylesheet" /> -->
+     <style type="text/css">
+     body 
+{
+	background-image:url(images/thietke.jpg);
+	background-repeat:repeat-x;
+	background-position:left top;
+	margin:0 auto;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+body a
+{
+	color:Black;
+	text-decoration:none;
+}
+body a:hover
+{
+	color:Red;
+	text-decoration:underline;
+}
+	
+.logo
+{
+
+	width:235px;
+	height:120px;
+	margin-left:70px;
+	padding:0;
+	float:left;
+}
+.banneradmin
+{
+	background-image:url(images/banner.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+	width:100%;
+	height:150px;
+}
+.admin
+{
+	background-image:url(images/ADMIN.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	float:right;
+	width:550px;
+	height:80px;
+	padding-right:70px;
+	margin-top:15px;
+}
+     </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 1000px">
+            <tr>
+                <td colspan="2">
+                    <div class="banneradmin">
+                        <div class="logo">
+                        </div>
+                        <div class="admin">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+          <tr>
+              <td colspan="2" style="padding-left: 20px; font-weight: bold; color: #ff0000">
+                  Xin chào Admin:
+                  <asp:HyperLink ID="HyperLink5" runat="server">HyperLink</asp:HyperLink>
+                  </td>
+          </tr>
+            <tr>
+                <td style="width: 179px; padding-top: 10px; background-color: #ffffff; height: 277px;" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" style="width: 179px; background-color: #ffffff;">
+                        <tr>
+                            <td colspan="2" style="padding-bottom: 2px">
+                                <asp:Image ID="Image6" runat="server" ImageUrl="~/Images/top.jpg" Width="179px" /></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 22px">
+                                <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/box-bullet1.gif" /></td>
+                            <td style="padding-left: 10px; font-weight: bold; color: #ffffff; background-color: #000000; width: 157px;">
+                                MENU</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; padding-top: 3px;">
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/arr.gif" /></td>
+                            <td style="padding-top: 3px; font-weight: bold;">
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/ThemSanPham.aspx">ĐĂNG SẢN PHẨM</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; padding-top: 3px;">
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/arr.gif" /></td>
+                            <td style="padding-top: 3px; font-weight: bold;">
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/SanPham.aspx">SẢN PHẨM</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; padding-top: 3px;">
+                                <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/arr.gif" /></td>
+                            <td style="padding-top: 3px; font-weight: bold;">
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin/ThongKeDonHang.aspx">THỐNG KÊ ĐƠN HÀNG</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; padding-top: 3px;">
+                                <asp:Image ID="Image7" runat="server" ImageUrl="~/Images/arr.gif" /></td>
+                            <td style="padding-top: 3px; font-weight: bold;">
+                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Admin/quanlytintuc.aspx">ĐĂNG TIN</asp:HyperLink></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 17px; padding-top: 3px">
+                                <asp:Image ID="Image10" runat="server" ImageUrl="~/Images/arr.gif" /></td>
+                            <td style="font-weight: bold; padding-top: 3px">
+                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/GioiThieuSanPham.aspx">TRANG CHỦ</asp:HyperLink></td>
+                        </tr>
+                         <tr>
+                            <td style="width: 17px; padding-top: 3px">
+                                <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/arr.gif" /></td>
+                            <td style="font-weight: bold; padding-top: 3px">
+                                &nbsp;<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">ĐĂNG XUẤT</asp:LinkButton></td>
+                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <asp:Image ID="Image8" runat="server" ImageUrl="~/Images/bottom.jpg" /></td>
+                        </tr>
+                        
+                    </table>
+                </td>
+                <td style="padding-top: 10px; background-color: #ffffff; width: 821px; height: 277px;">
+                 <table border="0" cellpadding="0" cellspacing="0" style="width: 821px">
+                        <tr>
+                            <td style="height: 15px">
+                                <asp:Image ID="Image9" runat="server" ImageUrl="~/Images/topphai.jpg" /></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; background-image: url(Images/bg.png); height: 28px">
+                                <p style="text-indent:30px; margin:0; padding:0">TRANG QUẢN TRỊ ADMIN</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border:1px solid #ccc; height: 34px;">
+                    <p style="text-align:center; margin:0; padding:0; color:rgb(255,255,153)">CopyRight&copy <b>MOONLY CENTER | MOONLY.com |</b></p>
+                    <p style="text-align:center; margin:0; padding:0; color:rgb(255,255,153)"> <b> | CĐ CNTT HỮU NGHỊ VIỆT - HÀN |</b></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

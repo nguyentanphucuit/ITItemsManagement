@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{7DDEB6A0-E9F3-4287-B390-4D8DEE4F4E83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Libraries", "Class Libraries", "{B205F147-922A-4F2A-85B9-14554461637E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\...\Web\", "..\Web\", "{3F920C27-C492-40F8-ACDC-8BE47AC4874C}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{3D098A96-D25D-44A7-BF07-F2E256EF9B67}|MOONLY.BusinessLogic.dll;{680BE974-44B0-4F81-A209-99AA8960C8A4}|MOONLY.Common.dll;{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}|MOONLY.DataAccess.dll;{ADAD842E-934E-4403-A32E-1F4918BD14AE}|MOONLY.Operational.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Web"
+		Release.AspNetCompiler.PhysicalPath = "..\Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49761"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOONLY.Common", "MOONLY.Common\MOONLY.Common.csproj", "{680BE974-44B0-4F81-A209-99AA8960C8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOONLY.DataAccess", "MOONLY.DataAccess\MOONLY.DataAccess.csproj", "{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOONLY.BusinessLogic", "MOONLY.BusinessLogic\MOONLY.BusinessLogic.csproj", "{3D098A96-D25D-44A7-BF07-F2E256EF9B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOONLY.Operational", "MOONLY.Operational\MOONLY.Operational.csproj", "{ADAD842E-934E-4403-A32E-1F4918BD14AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Debug|.NET.Build.0 = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Release|.NET.ActiveCfg = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Release|.NET.Build.0 = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{680BE974-44B0-4F81-A209-99AA8960C8A4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Release|.NET.ActiveCfg = Release|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Release|.NET.ActiveCfg = Release|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F920C27-C492-40F8-ACDC-8BE47AC4874C} = {7DDEB6A0-E9F3-4287-B390-4D8DEE4F4E83}
+		{680BE974-44B0-4F81-A209-99AA8960C8A4} = {B205F147-922A-4F2A-85B9-14554461637E}
+		{64573B16-6C2B-476F-8C0C-6FA804FC2F8F} = {B205F147-922A-4F2A-85B9-14554461637E}
+		{3D098A96-D25D-44A7-BF07-F2E256EF9B67} = {B205F147-922A-4F2A-85B9-14554461637E}
+		{ADAD842E-934E-4403-A32E-1F4918BD14AE} = {B205F147-922A-4F2A-85B9-14554461637E}
+	EndGlobalSection
+EndGlobal

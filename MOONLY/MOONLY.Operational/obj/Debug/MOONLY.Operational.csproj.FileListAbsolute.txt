@@ -1,0 +1,5 @@
+C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.csproj.CoreCompileInputs.cache
+C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb

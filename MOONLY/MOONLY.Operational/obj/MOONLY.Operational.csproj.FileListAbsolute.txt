@@ -1,0 +1,30 @@
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\Xay dung website TMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\ResolveAssemblyReference.cache
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\THIETKEWEBTMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\ResolveAssemblyReference.cache
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\XDWSTMDT\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\Hoc Tap\Xay dung website TMDT\BT NHOM\MOONLY\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb

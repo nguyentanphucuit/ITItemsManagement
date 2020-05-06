@@ -1,0 +1,265 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainchin.master.cs" Inherits="mainchin" %>
+<%@ Register Src="TaiNguyenDieuKhien/LienKet.ascx" TagName="LienKet" TagPrefix="uc5" %>
+<%@ Register Src="TaiNguyenDieuKhien/ThongTinThiTruong.ascx" TagName="ThongTinThiTruong"
+    TagPrefix="uc4" %>
+<%@ Register Src="TaiNguyenDieuKhien/Top10SanPham.ascx" TagName="Top10SanPham" TagPrefix="uc3" %>
+<%@ Register Src="TaiNguyenDieuKhien/MenuDanhMuc.ascx" TagName="MenuDanhMuc" TagPrefix="uc2" %>
+<%@ Register Src="TaiNguyenDieuKhien/ThongKeTruyCap.ascx" TagName="ThongKeTruyCap"
+    TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Moonly Center - Trung tâm mua bán sản phẩm chính hãng Sony</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="A Community Based WordPress Theme" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="coin-slider-styles.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="menusm.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="pagenavi-css.css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>		<!-- jQuery -->
+<script type="text/javascript" src="js/coin-slider.min.js"></script>		<!-- slider -->
+<script type="text/javascript" src="js/cufon-yui.js"></script>				<!-- cufon -->
+<script type="text/javascript" src="js/cufon-chunkfive.js"></script>			<!-- cufon font -->
+<script type="text/javascript" src="js/menusm.js"></script>					<!-- menu -->
+<script type="text/javascript" src="js/script.js"></script>		
+    
+</head>
+<body class="html_bg">
+    <form id="form1" runat="server">
+   
+    <div>
+    <div id="page">
+  <div id="header">
+    <div id="nav1">
+      <ul class="menusm">
+        <li class="current-cat"><a href="#">Giới Thiệu</a></li>
+        <li><a href="#">Tuyển dụng</a></li>
+        <li><a href="#">Tin Tức</a><ul>
+          <li><a href="#">Bảng thuật ngữ</a></li>
+          <li><a href="#">Sơ đồ trang</a></li>
+          <li><a href="#">Liên hệ</a><ul><li><a href="#">Serif Fonts</a></li></ul></li></ul></li>
+        <li><a href="#">Bảng thuật ngữ</a></li>
+        <li><a href="#">Sơ đồ trang</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+    <!-- /navigation -->  
+    <div class="logo"><h1><a href="#">MoonLy Center <small class="slogan">Luxury and Technology</small></a></h1></div>
+    <div class="topnav">
+      <ul class="menusm">
+        <li class="current_page_item"><a href="#">Trang chủ</a></li>
+        <li><a href="#">Cửa hàng</a></li>
+        <li><a href="#">Sản phẩm</a><ul>
+          <li><a href="#">Ti vi</a></li>
+          <li><a href="#">Máy tính</a></li>
+          <li><a href="#">Điện thoại</a><ul><li><a href="#">Điện thoại Xperia</a></li><li><a href="#">Điện thoại Walkman</a></li></ul></li>
+          <li><a href="#">Máy ảnh</a></li></ul></li>
+          <li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click1">Đơn Hàng</asp:LinkButton></li>
+        <li><a href="GioHang.aspx">Giỏ Hàng</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+    <!--/topnav -->
+    <div class="clr"></div>
+    <div class="slider">
+      <div id="coin-slider">
+        <a href="#"><img src="images/slide1.jpg" width="960" height="328" alt="slide1" /></a>
+        <a href="#"><img src="images/slide2.jpg" width="960" height="328" alt="slide2" /></a>
+        <a href="#"><img src="images/slide3.jpg" width="960" height="328" alt="slide3" /></a>
+        <a href="#"><img src="images/slide4.jpg" width="960" height="328" alt="slide2" /></a>
+         <a href="#"><img src="images/RX1.jpg" width="960" height="328" alt="slide1" /></a>
+      </div>
+    </div>
+    <div class="clr"></div>
+    <div class="rss">
+      <p><a href="#"><img src="images/rss.png" width="29" height="29" alt="rss" /></a> <a href="#">Subscribe to our RSS</a></p>
+    </div>
+    <div class="search">
+      <form method="get" id="searchform" action="">
+        <fieldset id="search">
+          <span>
+          <input type="text" value="Search our site..." onclick="this.value='';" name="s" id="s" />
+          <input name="searchsubmit" type="image" src="images/search.gif" value="Go" id="searchsubmit" class="btn"  />
+          </span>
+        </fieldset>
+      </form>
+    </div>
+    <!--/searchform --><div class="clr"></div>
+  </div> <!--/header -->
+  <div id="columns">
+    <div class="index-cols">
+    
+    
+    
+     <div class="thantrang">
+        	<div class="bentrai">
+        	    <div class="menudoc">
+           	  		<div class="thanhmenu">
+                    	<h4>DANH MỤC SẢN PHẨM</h4>
+                    </div>
+                    <div class="danhmucsanpham">
+                    	<ul>
+                            <uc2:MenuDanhMuc ID="MenuDanhMuc" runat="server" />
+                         
+                        	
+                        </ul>
+                    </div>
+                </div>
+                  <div class="menudoc">
+           	  		<div class="thanhmenu">
+                    	<h4>
+                            SẢN PHẨM MỚI NHẤT</h4>
+                    </div>
+                    <div class="tintuc">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding:5px;">
+                            <tr>
+                                <td style="width: 207px">
+                                    <uc3:Top10SanPham ID="Top10SanPham1" runat="server" />
+                                </td>
+                            </tr>
+                        </table>
+                    	
+                    </div>
+                    </div>
+                    <div class="menudoc">
+                        <div class="thanhmenu">
+                            <h4>THÔNG TIN THỊ TRƯỜNG</h4>
+                        </div>
+                        <div>
+                           <uc4:ThongTinThiTruong ID="ThongTinThiTruong" runat="server" />
+                        </div>   
+                    </div>
+                    <div class="menudoc">
+                        <div class="thanhmenu">
+                            <h4>LIÊN KẾT</h4>
+                        </div>
+                        <div>
+                            <uc5:LienKet ID="LienKet" runat="server" />
+                        </div>
+                        <div style="border:1px solid #ccc">
+                           <embed src="flash/fly.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent"  allowscriptaccess="always" style="width: 200px; height: 240px"></embed></div>
+                    </div>
+            </div>
+            <div class="giua">
+                <div class="product">
+                   
+                </div>
+                <div class="sanpham">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                   
+                 
+                </div>
+            </div>
+            <div class="benphai">
+                <div class="thanhmenu">
+                    <h4>BÁN HÀNG QUA PHONE</h4>
+                </div>
+                <div class="muahanggoingay">
+                    <h4><b>Mua hàng gọi ngay:</b></h4>
+                    <p style="text-indent:30px; color:Red; font-weight:bold;">Holine:016.88.767.549</p>
+                    <p style="text-indent:30px; color:Red; font-weight:bold;">Holine:016.87.862.090</p>
+                    <hr/>
+                    <p style="text-align:center; font-weight:bold; font-size:14px;">Giao hàng tận nơi</p>
+                    <ul><li><a href="#">Hướng dẫn mua hàng</a></li></ul>
+                </div>
+                <div class="thanhmenu">
+                    <h4>SUPPORT</h4>
+                </div>
+               <div class="hotrokhachhang">
+               </div>
+               <div class="menutintuc">
+                    <div class="thanhmenu">
+                        <h4>QUẢNG CÁO</h4>
+                    </div>
+                    <div>
+                    
+                   </div>
+                    <div class="thanhmenu">
+                        <h4>THỐNG KÊ TRUY CẬP</h4>
+                    </div>
+                    <div style="border:1px solid #ccc">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                            <tr>
+                                <td style="height: 16px; font-weight: bold; padding-top: 10px;" align="center" colspan="2">
+                                    <uc1:ThongKeTruyCap ID="ThongKeTruyCap" runat="server" />
+                                   
+                                   </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 18px; padding-left: 40px; font-weight: bold;">
+                                   
+                                </td>
+                                <td style="height: 18px; font-weight: bold; float:left; padding-right: 30px; padding-bottom: 5px;">
+                                   
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div><!--/columns -->
+    
+   
+  </div>  <!--/page -->
+  <div class="clr"></div>
+</div>
+<div class="footer2">
+    <div class="footer2_resize">
+      <div class="col col1">
+        <h2>Portfolio Categories</h2>
+        <ul>
+          <li><a href="#">Featured</a></li>
+          <li><a href="#">Motion Graphics</a></li>
+          <li><a href="#">Print</a></li>
+          <li><a href="#">Theme Colors</a></li>
+          <li><a href="#">Wordpress Themes</a></li>
+        </ul>
+      </div>
+      <div class="col col2">
+        <h2>Last Updates</h2>
+        <ul>
+          <li><a href="#">What Browser To Choose?</a><br />posted on December 20, 2009</li>
+          <li><a href="#">Getting Started</a><br />posted on December 20, 2009</li>
+          <li><a href="#">Why?</a><br />posted on December 20, 2009</li>
+        </ul>
+      </div>
+      <div class="col col3">
+        <h2>Archives</h2>
+        <ul>
+          <li><a href="#">July 2010</a></li>
+          <li><a href="#">August 2010</a></li>
+          <li><a href="#">September 2010</a></li>
+          <li><a href="#">November 2010</a></li>
+          <li><a href="#">December 2010</a></li>
+        </ul>
+      </div>
+      <div class="col col4">
+        <h2>Thông tin liên hệ</h2>
+        <p><span>Địa chỉ:</span> CNTT HỮU NGHỊ VIỆT HÀN</p>
+        <p><span>Điện thoại:</span> +84-1688-767-549</p>
+        <p><span>FAX:</span> +458-4578</p>
+        <p><span>Others:</span> +301 - 0125 - 01258</p>
+        <p><span>E-mail:</span> <a href="">dinhphong04a@gmail.com</a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+<div id="page_bottom">
+  <div id="footer">
+    <div class="text1">&copy; Copyright <a href="http://www.facebook.com/shiny.phong">CCTM04A</a>. All Rights Reserved</div>
+    <div class="text2">Design: (TS) <a href="http://www.facebook.com/shiny.phong">Shiny Phong</a></div>
+  </div>
+  <div class="clr"></div>
+  <!--/footer -->
+</div>
+    </form>
+</body>
+</html>
