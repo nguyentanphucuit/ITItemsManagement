@@ -4,10 +4,11 @@
 */
 
 
-.coin-slider { overflow:hidden; zoom:1; position:relative;}
+.coin-slider { width : 500px;overflow:hidden; zoom:1; position:relative;}
+
 .coin-slider a{ text-decoration:none; outline:none; border:none;}
 
-.cs-buttons { font-size:0px; margin:0; padding:10px; float:left;}
+.cs-buttons { font-size:0px; margin:0; padding-top: 10px/*padding:10px*/; float:left;}
 .cs-buttons a { margin-left:2px; width:20px; height:20px; float:left; background:url(images/slide_p.png) no-repeat left top; color:#fff; text-indent:-1000px;}
 .cs-buttons a.cs-active { background:url(images/slide_a.png) no-repeat left top; color:#fff;}
 

@@ -9,3 +9,14 @@ C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.DataAccess\obj\Debug\MOON
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csproj.CopyComplete
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.dll
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.DataAccess.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.DataAccess.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Common.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Operational.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Common.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Operational.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csprojAssemblyReference.cache
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csproj.CopyComplete
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.pdb

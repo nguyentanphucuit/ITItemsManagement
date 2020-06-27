@@ -7,3 +7,12 @@ C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Common\obj\Debug\MOONLY.C
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CopyComplete
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.dll
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Common.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Common.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Operational.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Operational.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csprojAssemblyReference.cache
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CoreCompileInputs.cache
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CopyComplete
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.pdb

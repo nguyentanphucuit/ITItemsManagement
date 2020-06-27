@@ -1,0 +1,33 @@
+html {
+    width: 100%;
+  }
+  
+  nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding-top: 15px;
+    box-shadow: 0px 0px 8px 0px;
+    -webkit-box-shadow: 0px 0px 8px 0px;
+    -moz-box-shadow: 0px 0px 8px 0px;
+    background-color: #44A7DA;
+    width: 10%;
+    z-index: 100;
+    text-align: center;
+  }
+  
+  .navbar a {
+    padding: 0px 100px 0px 100px;
+    color: white;
+  }
+  
+  .navbar a:visited {
+    color: black;
+  }
+  
+  .navbar a:hover {
+    color: black;
+    text-decoration: none;
+  }

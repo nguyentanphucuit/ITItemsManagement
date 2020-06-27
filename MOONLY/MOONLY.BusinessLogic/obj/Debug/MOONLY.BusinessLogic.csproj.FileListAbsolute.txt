@@ -9,3 +9,14 @@ C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.BusinessLogic\obj\Debug\M
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csproj.CopyComplete
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
 C:\Users\16520\OneDrive\Desktop\aas\asff\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csprojAssemblyReference.cache
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csproj.CopyComplete
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+C:\Users\16520\OneDrive\Desktop\ITItemsManagement\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
