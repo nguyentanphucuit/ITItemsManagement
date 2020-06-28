@@ -67,10 +67,9 @@
                                 </ul>
                                  <li><a href="#">Tablet</a></li>
                              <li>
-                           <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton1_Click1">Đơn Hàng</asp:LinkButton>
                         </li>
-                        <li><a href="GioHang.aspx">Giỏ Hàng</a></li>
-                            <a href="GioHang.aspx"><i class="fa fa-shopping-cart" style="font-size: 30px"></i></a>
+                        <a href="GioHang.aspx"><i class="fa fa-shopping-cart" style="font-size: 30px"></i></a>
+                            
                         </ul>
                         
                         <div class="clr"></div>
@@ -121,9 +120,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="card-footer w-100 text-muted">
-                                        Footer stating cats are CUTE little animals
-                                    </div> -->
                               </div>    
                             </div>
                             <div class="row" id="news">
@@ -140,9 +136,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="card-footer w-100 text-muted">
-                                Footer stating cats are CUTE little animals
-                            </div> -->
                       </div>
                             </div>
                             <div class="row" id="news">
@@ -159,73 +152,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="card-footer w-100 text-muted">
-                                Footer stating cats are CUTE little animals
-                            </div> -->
                       </div>
                             </div>
                         </div>
                   <div class="clr"></div>
-                  <div class="search">
-      <form method="get" id="searchform" action="">
-      <fieldset id="search">
-      <span>
-      <input type="text" value="Search our site..." onclick="this.value='';" name="s" id="s" />
-      <input name="searchsubmit" type="image" src="images/search.gif" value="Go" id="searchsubmit" class="btn"  />
-      </span>
-      </fieldset>
-      </form>
       </div>
       <!--/searchform --><div class="clr"></div>
       </div> <!--/header -->
-      <div id="columns">
-      <div class="index-cols">
-      <div class="thantrang">
-      <div class="bentrai">
-      <div class="menudoc">
-      <div class="thanhmenu">
-      <h4>DANH MỤC SẢN PHẨM</h4>
-      </div>
-      <div class="danhmucsanpham">
-      <ul>
-      <uc2:MenuDanhMuc ID="MenuDanhMuc" runat="server" />
-      </ul>
-      </div>
-      </div>
-      <div class="menudoc">
-      <div class="thanhmenu">
-      <h4>
-      SẢN PHẨM MỚI NHẤT</h4>
-      </div>
-      <div class="tintuc">
-      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding:5px;">
-      <tr>
-      <td style="width: 207px">
       <uc3:Top10SanPham ID="Top10SanPham1" runat="server" />
-      </td>
-      </tr>
-      </table>
       </div>
       </div>
-      <div class="menudoc">
-      <div class="thanhmenu">
-      <h4>THÔNG TIN THỊ TRƯỜNG</h4>
-      </div>
-      <div>
-      <uc4:ThongTinThiTruong ID="ThongTinThiTruong" runat="server" />
-      </div>   
-      </div>
-      <div class="menudoc">
-      <div class="thanhmenu">
-      <h4>LIÊN KẾT</h4>
-      </div>
-      <div>
-      <uc5:LienKet ID="LienKet" runat="server" />
-      </div>
-      <div style="border:1px solid #ccc">
-      <embed src="flash/fly.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent"  allowscriptaccess="always" style="width: 200px; height: 240px"></embed></div>
-      </div>
-      </div>
+
       <div class="giua">
       <div class="product">
       </div>
@@ -234,55 +171,135 @@
       </asp:ContentPlaceHolder>
       </div>
       </div>
-      <div class="benphai">
-      <div class="thanhmenu">
-      <h4>BÁN HÀNG QUA PHONE</h4>
-      </div>
-      <div class="muahanggoingay">
-      <h4><b>Mua hàng gọi ngay:</b></h4>
-      <p style="text-indent:30px; color:Red; font-weight:bold;">Holine:016.88.767.549</p>
-      <p style="text-indent:30px; color:Red; font-weight:bold;">Holine:016.87.862.090</p>
-      <hr/>
-      <p style="text-align:center; font-weight:bold; font-size:14px;">Giao hàng tận nơi</p>
-      <ul><li><a href="#">Hướng dẫn mua hàng</a></li></ul>
-      </div>
-      <div class="thanhmenu">
-      <h4>SUPPORT</h4>
-      </div>
-      <div class="hotrokhachhang">
-      </div>
-      <div class="menutintuc">
-      <div class="thanhmenu">
-      <h4>QUẢNG CÁO</h4>
-      </div>
-      <div>
-      </div>
-      <div class="thanhmenu">
-      <h4>THỐNG KÊ TRUY CẬP</h4>
-      </div>
-      <div style="border:1px solid #ccc">
-      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
-      <tr>
-      <td style="height: 16px; font-weight: bold; padding-top: 10px;" align="center" colspan="2">
-      <uc1:ThongKeTruyCap ID="ThongKeTruyCap" runat="server" />
-      </td>
-      </tr>
-      <tr>
-      <td style="height: 18px; padding-left: 40px; font-weight: bold;">
-      </td>
-      <td style="height: 18px; font-weight: bold; float:left; padding-right: 30px; padding-bottom: 5px;">
-      </td>
-      </tr>
-      </table>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div><!--/columns -->
-      </div>  <!--/page -->
+          <div class ="card-area row" >
+                        <div class="card bg-light" style="margin-bottom: 10px;"  style="margin-bottom: 10px;">
+                            <div class="card-header"><h2>Hot Mobile in June</h2></div>
+                            <div class="card-body row" style="padding:0px;">
+                                <div class="card-group col">
+                                    <div class="card card-img" style="width: 10rem;" >
+                                        <img class="card-img-top " src="images/slide1.jpg" >
+                                        <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-group col" >      
+                                    <div class="card ">
+                                      <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card ">
+                                      <img class="card-img-top " src="images/slide1.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card ">
+                                      <img class="card-img-top " src="images/slide1.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                                    
+                                  </div>
+                            </div>
+                            <div class="card bg-light" style="margin-bottom: 10px;" >
+                                <div class="card-header"><h2>Hot Mobile in June</h2></div>
+                                <div class="card-body row" style="padding:0px;">
+                                    <div class="card-group col">
+                                        <div class="card card-img" style="width: 10rem;" >
+                                            <img class="card-img-top " src="images/slide1.jpg" >
+                                            <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-group col" >      
+                                        <div class="card ">
+                                          <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                          </div>
+                                        </div>
+                                        <div class="card ">
+                                          <img class="card-img-top " src="images/slide1.jpg" alt="Card image cap">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                          </div>
+                                        </div>
+                                        <div class="card ">
+                                          <img class="card-img-top " src="images/slide1.jpg" alt="Card image cap">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                        
+                                      </div>
+                                </div>
+                                <div class="card bg-light" style="margin-bottom: 10px;" >
+                                    <div class="card-header"><h2>Hot Mobile in June</h2></div>
+                                    <div class="card-body row" style="padding:0px;">
+                                        <div class="card-group col">
+                                            <div class="card card-img" style="width: 10rem;" >
+                                                <img class="card-img-top " src="images/slide1.jpg" >
+                                                <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-group col" >      
+                                            <div class="card ">
+                                              <img class="card-img-top" src="images/slide1.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card ">
+                                              <img class="card-img-top " src="images/slide1.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card ">
+                                              <img class="card-img-top " src="images/slide1.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                            
+                                          </div>
+                                    </div>
+                          </div>
+                        
+                        
+                        
+                        
+                        <div class="clearfix"></div>
+                    </div>
       <div class="clr"></div>
-      </div>
       <div class="footer2">
          <div class="footer2_resize">
             <div class="col col1">
